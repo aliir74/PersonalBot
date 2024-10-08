@@ -1,0 +1,10 @@
+import os
+
+from dotenv import load_dotenv
+
+load_dotenv()
+NOTION_TOKEN = os.getenv("NOTION_TOKEN")
+NOTION_TASKS_DATABASE_URL = os.getenv("NOTION_TASKS_DATABASE_URL")
+NOTION_EMAIL = os.getenv("NOTION_EMAIL")
+NOTION_PASSWORD = os.getenv("NOTION_PASSWORD")
+NOTION_INTEGRATION_TOKEN = os.getenv("NOTION_INTEGRATION_TOKEN")
